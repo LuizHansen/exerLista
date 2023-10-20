@@ -1,0 +1,18 @@
+C:\Users\Cliente\Desktop\David estudos\exerLista\obj\Debug\net7.0\exerLista.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cliente\Desktop\David estudos\exerLista\obj\Debug\net7.0\exerLista.AssemblyInfoInputs.cache
+C:\Users\Cliente\Desktop\David estudos\exerLista\obj\Debug\net7.0\exerLista.AssemblyInfo.cs
+C:\Users\Cliente\Desktop\David estudos\exerLista\obj\Debug\net7.0\exerLista.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\exerLista\bin\Debug\net7.0\exerLista.exe
+C:\Users\user\Desktop\exerLista\bin\Debug\net7.0\exerLista.deps.json
+C:\Users\user\Desktop\exerLista\bin\Debug\net7.0\exerLista.runtimeconfig.json
+C:\Users\user\Desktop\exerLista\bin\Debug\net7.0\exerLista.dll
+C:\Users\user\Desktop\exerLista\bin\Debug\net7.0\exerLista.pdb
+C:\Users\user\Desktop\exerLista\obj\Debug\net7.0\exerLista.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\exerLista\obj\Debug\net7.0\exerLista.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\exerLista\obj\Debug\net7.0\exerLista.AssemblyInfo.cs
+C:\Users\user\Desktop\exerLista\obj\Debug\net7.0\exerLista.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\exerLista\obj\Debug\net7.0\exerLista.dll
+C:\Users\user\Desktop\exerLista\obj\Debug\net7.0\refint\exerLista.dll
+C:\Users\user\Desktop\exerLista\obj\Debug\net7.0\exerLista.pdb
+C:\Users\user\Desktop\exerLista\obj\Debug\net7.0\exerLista.genruntimeconfig.cache
+C:\Users\user\Desktop\exerLista\obj\Debug\net7.0\ref\exerLista.dll
