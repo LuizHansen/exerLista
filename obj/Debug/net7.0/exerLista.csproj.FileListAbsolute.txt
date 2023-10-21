@@ -16,3 +16,17 @@ C:\Users\user\Desktop\exerLista\obj\Debug\net7.0\refint\exerLista.dll
 C:\Users\user\Desktop\exerLista\obj\Debug\net7.0\exerLista.pdb
 C:\Users\user\Desktop\exerLista\obj\Debug\net7.0\exerLista.genruntimeconfig.cache
 C:\Users\user\Desktop\exerLista\obj\Debug\net7.0\ref\exerLista.dll
+C:\Projetos\exerLista\bin\Debug\net7.0\exerLista.exe
+C:\Projetos\exerLista\bin\Debug\net7.0\exerLista.deps.json
+C:\Projetos\exerLista\bin\Debug\net7.0\exerLista.runtimeconfig.json
+C:\Projetos\exerLista\bin\Debug\net7.0\exerLista.dll
+C:\Projetos\exerLista\bin\Debug\net7.0\exerLista.pdb
+C:\Projetos\exerLista\obj\Debug\net7.0\exerLista.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\exerLista\obj\Debug\net7.0\exerLista.AssemblyInfoInputs.cache
+C:\Projetos\exerLista\obj\Debug\net7.0\exerLista.AssemblyInfo.cs
+C:\Projetos\exerLista\obj\Debug\net7.0\exerLista.csproj.CoreCompileInputs.cache
+C:\Projetos\exerLista\obj\Debug\net7.0\exerLista.dll
+C:\Projetos\exerLista\obj\Debug\net7.0\refint\exerLista.dll
+C:\Projetos\exerLista\obj\Debug\net7.0\exerLista.pdb
+C:\Projetos\exerLista\obj\Debug\net7.0\exerLista.genruntimeconfig.cache
+C:\Projetos\exerLista\obj\Debug\net7.0\ref\exerLista.dll

@@ -29,11 +29,12 @@ namespace exerLista
                 Console.WriteLine("| 7 - Retirar primeira ocorrencia        |");
                 Console.WriteLine("| 8 - Localizar primeira ocorrencia      |");
                 Console.WriteLine("| 9 - Copiar lista                       |");
+                Console.WriteLine("| 10 - Ordenar lista                     |");
                 Console.WriteLine("| 0 - Sair                               |");
                 Console.WriteLine("-----------------------------------------");
                 Console.ForegroundColor = ConsoleColor.White;
 
-                opcao = Convert.ToByte(Console.ReadLine());
+                opcao = byte.TryParse(Console.ReadLine(), out byte auxopcao)? auxopcao : default;
                 Console.Clear();
 
                 switch (opcao)
@@ -65,6 +66,9 @@ namespace exerLista
                     case 9:
                         CopiarLista();
                         break;
+                    case 10:
+                        OrdenarLista();
+                        break;    
                     default:
                         Console.WriteLine("Opção digitada não existe, tente novamente.");
                         break;
