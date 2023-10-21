@@ -45,6 +45,7 @@ namespace exerLista
 
         public static void InfoLista()
         {
+
             if (listaItem.Count > 0)
             {
                 Console.ForegroundColor = ConsoleColor.Blue;
@@ -56,20 +57,24 @@ namespace exerLista
                     Console.WriteLine(Item.Exibir());
                 }
                 Console.WriteLine("Quantidade de itens na lista: {0}", listaItem.Count());
-                Console.ForegroundColor = ConsoleColor.Blue;
-                Console.WriteLine("Aperte em qualquer tecla para continuar");
-                Console.ForegroundColor = ConsoleColor.White;
-                Console.ReadKey();
-                Console.Clear();
+                Console.WriteLine($"Capacidade da lista: {listaItem.Capacity}");
+
+            }
+            else if (listaItem.Count < listaItem.Capacity)
+            {
+                Console.ForegroundColor = ConsoleColor.DarkRed;
+                Console.WriteLine("Capacidade da lista atingiu seu maxímo!");
             }
             else
             {
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine("Não há itens, aperte em qualquer tecla para continuar");
-                Console.ForegroundColor = ConsoleColor.White;
-                Console.ReadKey();
-                Console.Clear();
+
             }
+            Console.WriteLine("Aperte em qualquer tecla para continuar");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.ReadKey();
+            Console.Clear();
         }
         public static void RemoverPrimeiroItem()
         {
@@ -128,7 +133,10 @@ namespace exerLista
             Console.ReadKey();
             Console.Clear();
         }
-
+        public static void OrdenarLista()
+        {
+            listaItem.Sort();
+        }
     }
 
 }
