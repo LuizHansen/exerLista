@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\exerLista\\exerLista.csproj": {}
+    "C:\\Projetos\\exerLista\\exerLista.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\exerLista\\exerLista.csproj": {
+    "C:\\Projetos\\exerLista\\exerLista.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\exerLista\\exerLista.csproj",
+        "projectUniqueName": "C:\\Projetos\\exerLista\\exerLista.csproj",
         "projectName": "exerLista",
-        "projectPath": "C:\\Users\\user\\Desktop\\exerLista\\exerLista.csproj",
+        "projectPath": "C:\\Projetos\\exerLista\\exerLista.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\exerLista\\obj\\",
+        "outputPath": "C:\\Projetos\\exerLista\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"

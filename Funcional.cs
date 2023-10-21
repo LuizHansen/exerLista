@@ -10,22 +10,22 @@ namespace exerLista
         public static void Adicionar()
         {
             Item inserirLista = new Item();
-            System.Console.WriteLine("Insira o Item na lista");
+            Console.WriteLine("Insira o Item na lista");
             inserirLista.Conteudo = Console.ReadLine();
 
             listaItem.Add(inserirLista);
-            System.Console.WriteLine("Aperte qualquer tecla para continuar:");
+            Console.WriteLine("Aperte qualquer tecla para continuar:");
             Console.ReadKey();
             Console.Clear();
         }
         public static void AdicionarInicio()
         {
             Item inserirInicio = new Item();
-            System.Console.WriteLine("Insira o Item na lista");
+            Console.WriteLine("Insira o Item na lista");
             inserirInicio.Conteudo = Console.ReadLine();
 
             listaItem.Insert(0, inserirInicio);
-            System.Console.WriteLine("Aperte qualquer tecla para continuar:");
+            Console.WriteLine("Aperte qualquer tecla para continuar:");
             Console.ReadKey();
             Console.Clear();
         }
@@ -38,7 +38,7 @@ namespace exerLista
             inserirIesimo.Conteudo = Console.ReadLine();
 
             listaItem.Insert(pos, inserirIesimo);
-            System.Console.WriteLine("Aperte qualquer tecla para continuar:");
+            Console.WriteLine("Aperte qualquer tecla para continuar:");
             Console.ReadKey();
             Console.Clear();
         }
@@ -74,7 +74,7 @@ namespace exerLista
         public static void RemoverPrimeiroItem()
         {
             listaItem.RemoveAt(0);
-            System.Console.WriteLine("Removido, aperte qualquer tecla para continuar:");
+            Console.WriteLine("Removido, aperte qualquer tecla para continuar:");
             Console.ReadKey();
             Console.Clear();
         }
@@ -83,7 +83,7 @@ namespace exerLista
             Console.WriteLine("Informe a posiçao que deseja remover:");
             byte pos = Byte.TryParse(Console.ReadLine(), out byte auxpos) ? auxpos : default;
             listaItem.RemoveAt(pos);
-            System.Console.WriteLine($"Item na posição {pos} removido, aperte qualquer tecla para continuar:");
+            Console.WriteLine($"Item na posição {pos} removido, aperte qualquer tecla para continuar:");
             Console.ReadKey();
             Console.Clear();
         }
@@ -94,7 +94,7 @@ namespace exerLista
             Ocorrencia.Conteudo = Console.ReadLine();
             int pos = listaItem.FindIndex(item => item.Conteudo == Ocorrencia.Conteudo);
             listaItem.RemoveAt(pos);
-            System.Console.WriteLine("Primeira ocorrência removida, aperte qualquer tecla para continuar:");
+            Console.WriteLine("Primeira ocorrência removida, aperte qualquer tecla para continuar:");
             Console.ReadKey();
             Console.Clear();
         }

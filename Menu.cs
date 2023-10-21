@@ -33,7 +33,7 @@ namespace exerLista
                 Console.WriteLine("-----------------------------------------");
                 Console.ForegroundColor = ConsoleColor.White;
 
-                opcao = Convert.ToByte(Console.ReadLine());
+                opcao = byte.TryParse(Console.ReadLine(), out byte auxopcao)? auxopcao : default;
                 Console.Clear();
 
                 switch (opcao)
