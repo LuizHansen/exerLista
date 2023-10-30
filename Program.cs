@@ -1,6 +1,6 @@
 ﻿namespace exerLista
 {
-
+//Desenvolvido por Luiz, Yuri, David, Josue e Kaue
     partial class Program : Menu
     {
         public Program()

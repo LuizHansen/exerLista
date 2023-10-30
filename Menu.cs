@@ -29,7 +29,6 @@ namespace exerLista
                 Console.WriteLine("| 7 - Retirar primeira ocorrencia        |");
                 Console.WriteLine("| 8 - Localizar primeira ocorrencia      |");
                 Console.WriteLine("| 9 - Copiar lista                       |");
-                Console.WriteLine("| 10 - Ordenar lista                     |");
                 Console.WriteLine("| 0 - Sair                               |");
                 Console.WriteLine("-----------------------------------------");
                 Console.ForegroundColor = ConsoleColor.White;
@@ -66,8 +65,7 @@ namespace exerLista
                     case 9:
                         CopiarLista();
                         break;
-                    case 10:
-                        OrdenarLista();
+                    case 0:
                         break;    
                     default:
                         Console.WriteLine("Opção digitada não existe, tente novamente.");

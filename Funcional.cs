@@ -133,10 +133,6 @@ namespace exerLista
             Console.ReadKey();
             Console.Clear();
         }
-        public static void OrdenarLista()
-        {
-            listaItem.Sort();
-        }
     }
 
 }
